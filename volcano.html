@@ -1,0 +1,1619 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b2822227ea984ca883ab2625d758c74c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b2822227ea984ca883ab2625d758c74c" ></div>
+        
+</body>
+<script>    
+    
+            var map_b2822227ea984ca883ab2625d758c74c = L.map(
+                "map_b2822227ea984ca883ab2625d758c74c",
+                {
+                    center: [40.236062, -111.304886],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    tile: "stamen terrain",
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6799abe4b6a64a9993acef101ee51f83 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b2822227ea984ca883ab2625d758c74c);
+        
+    
+            var feature_group_4ff1db00b3854097ad558c583ae40788 = L.featureGroup(
+                {}
+            ).addTo(map_b2822227ea984ca883ab2625d758c74c);
+        
+    
+            var marker_9dd384132c124576bced7507aa1cc216 = L.marker(
+                [48.7767982, -121.810997],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_2f2f68b74bf14aec94345a4e7ca331fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9dd384132c124576bced7507aa1cc216.setIcon(icon_2f2f68b74bf14aec94345a4e7ca331fd);
+        
+    
+        var popup_9b6fd20cd5da4b12afa996e3065beb2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f785c2b4c58f48efb370775971eb7d22 = $(`<div id="html_f785c2b4c58f48efb370775971eb7d22" style="width: 100.0%; height: 100.0%;">Name:Baker    Value: 3285.0    Location: US-Washington  Status:Historical   Type: Stratovolcanoes</div>`)[0];
+            popup_9b6fd20cd5da4b12afa996e3065beb2a.setContent(html_f785c2b4c58f48efb370775971eb7d22);
+        
+
+        marker_9dd384132c124576bced7507aa1cc216.bindPopup(popup_9b6fd20cd5da4b12afa996e3065beb2a)
+        ;
+
+        
+    
+    
+            var marker_638bd87e8b5e4c04a69d86f89744671c = L.marker(
+                [48.1118011, -121.1110001],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_f55b8134cecf4a0785a156b233f6fc4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_638bd87e8b5e4c04a69d86f89744671c.setIcon(icon_f55b8134cecf4a0785a156b233f6fc4c);
+        
+    
+        var popup_d85111ebe589451997c0d3aafd506635 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47f3b5eb30e3485f875ab5eb35d251fe = $(`<div id="html_47f3b5eb30e3485f875ab5eb35d251fe" style="width: 100.0%; height: 100.0%;">Name:Glacier Peak    Value: 3213.0    Location: US-Washington  Status:Tephrochronology   Type: Stratovolcano</div>`)[0];
+            popup_d85111ebe589451997c0d3aafd506635.setContent(html_47f3b5eb30e3485f875ab5eb35d251fe);
+        
+
+        marker_638bd87e8b5e4c04a69d86f89744671c.bindPopup(popup_d85111ebe589451997c0d3aafd506635)
+        ;
+
+        
+    
+    
+            var marker_cd4a701e584e43739bb5530c6b696ca7 = L.marker(
+                [46.8698006, -121.7509995],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_5730d8004f6b4d3dbedec94d5e546689 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cd4a701e584e43739bb5530c6b696ca7.setIcon(icon_5730d8004f6b4d3dbedec94d5e546689);
+        
+    
+        var popup_020a52a5a9424620b8af22239f79740a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1944e47fe79489c8d6d6c1284fce940 = $(`<div id="html_c1944e47fe79489c8d6d6c1284fce940" style="width: 100.0%; height: 100.0%;">Name:Rainier    Value: 4392.0    Location: US-Washington  Status:Dendrochronology   Type: Stratovolcano</div>`)[0];
+            popup_020a52a5a9424620b8af22239f79740a.setContent(html_c1944e47fe79489c8d6d6c1284fce940);
+        
+
+        marker_cd4a701e584e43739bb5530c6b696ca7.bindPopup(popup_020a52a5a9424620b8af22239f79740a)
+        ;
+
+        
+    
+    
+            var marker_2ad2fd292f644856ab611f1e3f850f01 = L.marker(
+                [46.1997986, -122.1809998],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_aeede7f78ec245f4b5e8cc189bf8fd70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2ad2fd292f644856ab611f1e3f850f01.setIcon(icon_aeede7f78ec245f4b5e8cc189bf8fd70);
+        
+    
+        var popup_bac5cc436e8340f99e9f9a8b1360537a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1c7dd03600b4c25a7442bef9d4606e6 = $(`<div id="html_c1c7dd03600b4c25a7442bef9d4606e6" style="width: 100.0%; height: 100.0%;">Name:St. Helens    Value: 2549.0    Location: US-Washington  Status:Historical   Type: Stratovolcano</div>`)[0];
+            popup_bac5cc436e8340f99e9f9a8b1360537a.setContent(html_c1c7dd03600b4c25a7442bef9d4606e6);
+        
+
+        marker_2ad2fd292f644856ab611f1e3f850f01.bindPopup(popup_bac5cc436e8340f99e9f9a8b1360537a)
+        ;
+
+        
+    
+    
+            var marker_6473a067ef614ddc82932da9a1726648 = L.marker(
+                [46.2057991, -121.4909973],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_e9cde36142db44ac98f45f8cc15305be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6473a067ef614ddc82932da9a1726648.setIcon(icon_e9cde36142db44ac98f45f8cc15305be);
+        
+    
+        var popup_3f0e31352a694b4087cc0c02fc9c1db2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_168f2f71841247aa92ca585d69c07042 = $(`<div id="html_168f2f71841247aa92ca585d69c07042" style="width: 100.0%; height: 100.0%;">Name:Adams    Value: 3742.0    Location: US-Washington  Status:Tephrochronology   Type: Stratovolcano</div>`)[0];
+            popup_3f0e31352a694b4087cc0c02fc9c1db2.setContent(html_168f2f71841247aa92ca585d69c07042);
+        
+
+        marker_6473a067ef614ddc82932da9a1726648.bindPopup(popup_3f0e31352a694b4087cc0c02fc9c1db2)
+        ;
+
+        
+    
+    
+            var marker_f9a5738d3ed84a42befa1c75e8fb69d6 = L.marker(
+                [45.8797989, -122.0810013],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_e74e1c1fa1bd4aa0bbd367b4f34d1ad3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f9a5738d3ed84a42befa1c75e8fb69d6.setIcon(icon_e74e1c1fa1bd4aa0bbd367b4f34d1ad3);
+        
+    
+        var popup_54a1c04523d149b4a8d1e1818e07b6ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93247dbad866413e932302085f0e71d7 = $(`<div id="html_93247dbad866413e932302085f0e71d7" style="width: 100.0%; height: 100.0%;">Name:West Crater    Value: 1329.0    Location: US-Washington  Status:Radiocarbon   Type: Volcanic field</div>`)[0];
+            popup_54a1c04523d149b4a8d1e1818e07b6ca.setContent(html_93247dbad866413e932302085f0e71d7);
+        
+
+        marker_f9a5738d3ed84a42befa1c75e8fb69d6.bindPopup(popup_54a1c04523d149b4a8d1e1818e07b6ca)
+        ;
+
+        
+    
+    
+            var marker_5ac1184d6228454d849dc5c6ff85a831 = L.marker(
+                [45.9297981, -121.8209991],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_9933068ba9e047f191e5cabfaf636de1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5ac1184d6228454d849dc5c6ff85a831.setIcon(icon_9933068ba9e047f191e5cabfaf636de1);
+        
+    
+        var popup_d4c8b55ce4fe45e1b61b6be032163e10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7adeae64fddd4d0c81669096c9b5b51a = $(`<div id="html_7adeae64fddd4d0c81669096c9b5b51a" style="width: 100.0%; height: 100.0%;">Name:Indian Heaven    Value: 1806.0    Location: US-Washington  Status:Radiocarbon   Type: Shield volcanoes</div>`)[0];
+            popup_d4c8b55ce4fe45e1b61b6be032163e10.setContent(html_7adeae64fddd4d0c81669096c9b5b51a);
+        
+
+        marker_5ac1184d6228454d849dc5c6ff85a831.bindPopup(popup_d4c8b55ce4fe45e1b61b6be032163e10)
+        ;
+
+        
+    
+    
+            var marker_d41f1a1221b646ce92aff42cce84392f = L.marker(
+                [45.3737984, -121.6910019],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_0005f03db74f424ba7fa16e8f674899c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d41f1a1221b646ce92aff42cce84392f.setIcon(icon_0005f03db74f424ba7fa16e8f674899c);
+        
+    
+        var popup_d3af55c52569423481b6e55671b36a86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4699404c32db406ab611b6c0a2feee85 = $(`<div id="html_4699404c32db406ab611b6c0a2feee85" style="width: 100.0%; height: 100.0%;">Name:Hood    Value: 3426.0    Location: US-Oregon  Status:Historical   Type: Stratovolcano</div>`)[0];
+            popup_d3af55c52569423481b6e55671b36a86.setContent(html_4699404c32db406ab611b6c0a2feee85);
+        
+
+        marker_d41f1a1221b646ce92aff42cce84392f.bindPopup(popup_d3af55c52569423481b6e55671b36a86)
+        ;
+
+        
+    
+    
+            var marker_7c71c9f08ac7498f80582df6ed1b2ec0 = L.marker(
+                [44.6917992, -121.8010025],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_82fc4b645bc64297b42ab04c052ea676 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7c71c9f08ac7498f80582df6ed1b2ec0.setIcon(icon_82fc4b645bc64297b42ab04c052ea676);
+        
+    
+        var popup_3bf2297ccf9841f7ab8d1646ec81de29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55266d01a1154a19b9cee5881b8d845a = $(`<div id="html_55266d01a1154a19b9cee5881b8d845a" style="width: 100.0%; height: 100.0%;">Name:Jefferson    Value: 3199.0    Location: US-Oregon  Status:Varve Count   Type: Stratovolcano</div>`)[0];
+            popup_3bf2297ccf9841f7ab8d1646ec81de29.setContent(html_55266d01a1154a19b9cee5881b8d845a);
+        
+
+        marker_7c71c9f08ac7498f80582df6ed1b2ec0.bindPopup(popup_3bf2297ccf9841f7ab8d1646ec81de29)
+        ;
+
+        
+    
+    
+            var marker_bc6f360855ae4136ac145fe3a6f8642e = L.marker(
+                [44.4197998, -121.7710037],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_afe2a9d27a94476e99a1416da88cecbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_bc6f360855ae4136ac145fe3a6f8642e.setIcon(icon_afe2a9d27a94476e99a1416da88cecbd);
+        
+    
+        var popup_a69ee5fdd3e149d2afae20476182f77c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1213b35ee52b425fba45202e4a60569c = $(`<div id="html_1213b35ee52b425fba45202e4a60569c" style="width: 100.0%; height: 100.0%;">Name:Blue Lake Crater    Value: 1230.0    Location: US-Oregon  Status:Radiocarbon   Type: Maar</div>`)[0];
+            popup_a69ee5fdd3e149d2afae20476182f77c.setContent(html_1213b35ee52b425fba45202e4a60569c);
+        
+
+        marker_bc6f360855ae4136ac145fe3a6f8642e.bindPopup(popup_a69ee5fdd3e149d2afae20476182f77c)
+        ;
+
+        
+    
+    
+            var marker_7ed8fe82f05e4f75b7278cdbf3d3a23d = L.marker(
+                [44.3797989, -121.9309998],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_92ab8db4f4d840669f1f7ddf9fd2e2ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7ed8fe82f05e4f75b7278cdbf3d3a23d.setIcon(icon_92ab8db4f4d840669f1f7ddf9fd2e2ab);
+        
+    
+        var popup_2a196afc5ba543f29e0c6156255c8e79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95724e0c0b364b03b728afd21e18588d = $(`<div id="html_95724e0c0b364b03b728afd21e18588d" style="width: 100.0%; height: 100.0%;">Name:Sand Mountain Field    Value: 1664.0    Location: US-Oregon  Status:Radiocarbon   Type: Cinder cones</div>`)[0];
+            popup_2a196afc5ba543f29e0c6156255c8e79.setContent(html_95724e0c0b364b03b728afd21e18588d);
+        
+
+        marker_7ed8fe82f05e4f75b7278cdbf3d3a23d.bindPopup(popup_2a196afc5ba543f29e0c6156255c8e79)
+        ;
+
+        
+    
+    
+            var marker_ffe1945f058f479c82763b3cf5c239c3 = L.marker(
+                [44.3317986, -121.8310013],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_c4243a3811fd4e46b7f8f73ff99be1b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ffe1945f058f479c82763b3cf5c239c3.setIcon(icon_c4243a3811fd4e46b7f8f73ff99be1b8);
+        
+    
+        var popup_411c22a25be24fe7959752bf859a179f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_378d48f27ce14641a06240238cdafb24 = $(`<div id="html_378d48f27ce14641a06240238cdafb24" style="width: 100.0%; height: 100.0%;">Name:Washington    Value: 2376.0    Location: US-Oregon  Status:Radiocarbon   Type: Shield volcano</div>`)[0];
+            popup_411c22a25be24fe7959752bf859a179f.setContent(html_378d48f27ce14641a06240238cdafb24);
+        
+
+        marker_ffe1945f058f479c82763b3cf5c239c3.bindPopup(popup_411c22a25be24fe7959752bf859a179f)
+        ;
+
+        
+    
+    
+            var marker_125c9581f9ee4453a60a12ac4b912302 = L.marker(
+                [44.2848015, -121.8410034],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_ce7901ca327e4630b08fd22f71f8327f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_125c9581f9ee4453a60a12ac4b912302.setIcon(icon_ce7901ca327e4630b08fd22f71f8327f);
+        
+    
+        var popup_29a673d7c4a2445e9d6177e58708eb0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b08eff71b2eb487da6535c93f42cff5e = $(`<div id="html_b08eff71b2eb487da6535c93f42cff5e" style="width: 100.0%; height: 100.0%;">Name:Belknap    Value: 2095.0    Location: US-Oregon  Status:Radiocarbon   Type: Shield volcanoes</div>`)[0];
+            popup_29a673d7c4a2445e9d6177e58708eb0d.setContent(html_b08eff71b2eb487da6535c93f42cff5e);
+        
+
+        marker_125c9581f9ee4453a60a12ac4b912302.bindPopup(popup_29a673d7c4a2445e9d6177e58708eb0d)
+        ;
+
+        
+    
+    
+            var marker_f2b5173852f2454db60cad96e911fe99 = L.marker(
+                [44.1697998, -121.7710037],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_f2ea3ce1997d49b8846a622500464159 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f2b5173852f2454db60cad96e911fe99.setIcon(icon_f2ea3ce1997d49b8846a622500464159);
+        
+    
+        var popup_0c1c323327fa4333bf89501e8c5f9c22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28a338a76d734fbaaab788b63caf7062 = $(`<div id="html_28a338a76d734fbaaab788b63caf7062" style="width: 100.0%; height: 100.0%;">Name:North Sister Field    Value: 3074.0    Location: US-Oregon  Status:Radiocarbon   Type: Complex volcano</div>`)[0];
+            popup_0c1c323327fa4333bf89501e8c5f9c22.setContent(html_28a338a76d734fbaaab788b63caf7062);
+        
+
+        marker_f2b5173852f2454db60cad96e911fe99.bindPopup(popup_0c1c323327fa4333bf89501e8c5f9c22)
+        ;
+
+        
+    
+    
+            var marker_9e872a25a2ab4bc29600d8eca4ef0e0c = L.marker(
+                [44.0998001, -121.7710037],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_d97211e085c24df98f620972f47705a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9e872a25a2ab4bc29600d8eca4ef0e0c.setIcon(icon_d97211e085c24df98f620972f47705a2);
+        
+    
+        var popup_139458170f0a4bc6b08923bad433c891 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce52b779932a4e7cb46b2b0f86f4d30a = $(`<div id="html_ce52b779932a4e7cb46b2b0f86f4d30a" style="width: 100.0%; height: 100.0%;">Name:South Sister    Value: 3157.0    Location: US-Oregon  Status:Radiocarbon   Type: Complex volcano</div>`)[0];
+            popup_139458170f0a4bc6b08923bad433c891.setContent(html_ce52b779932a4e7cb46b2b0f86f4d30a);
+        
+
+        marker_9e872a25a2ab4bc29600d8eca4ef0e0c.bindPopup(popup_139458170f0a4bc6b08923bad433c891)
+        ;
+
+        
+    
+    
+            var marker_4908dbe785c24ef39d4495ad33ef4f1e = L.marker(
+                [43.9788017, -121.6809998],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_7351299cb7f54955b6921108d0a9954c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4908dbe785c24ef39d4495ad33ef4f1e.setIcon(icon_7351299cb7f54955b6921108d0a9954c);
+        
+    
+        var popup_a92c1effc50044179ec4c06c334a8443 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d245b348a6bc43bbbb80e12be95e39bf = $(`<div id="html_d245b348a6bc43bbbb80e12be95e39bf" style="width: 100.0%; height: 100.0%;">Name:Bachelor    Value: 2763.0    Location: US-Oregon  Status:Tephrochronology   Type: Stratovolcano</div>`)[0];
+            popup_a92c1effc50044179ec4c06c334a8443.setContent(html_d245b348a6bc43bbbb80e12be95e39bf);
+        
+
+        marker_4908dbe785c24ef39d4495ad33ef4f1e.bindPopup(popup_a92c1effc50044179ec4c06c334a8443)
+        ;
+
+        
+    
+    
+            var marker_a4c41985c9ca42aeaafe7f602c3226fe = L.marker(
+                [43.7218018, -121.2210007],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_89ca8aa10728412a969c0306fd423a56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a4c41985c9ca42aeaafe7f602c3226fe.setIcon(icon_89ca8aa10728412a969c0306fd423a56);
+        
+    
+        var popup_756bf74c19594e5f9a64a2dfdf139414 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48ff84ef24ae44ef9d2665f31efec468 = $(`<div id="html_48ff84ef24ae44ef9d2665f31efec468" style="width: 100.0%; height: 100.0%;">Name:Newberry Volcano    Value: 2434.0    Location: US-Oregon  Status:Radiocarbon   Type: Shield volcano</div>`)[0];
+            popup_756bf74c19594e5f9a64a2dfdf139414.setContent(html_48ff84ef24ae44ef9d2665f31efec468);
+        
+
+        marker_a4c41985c9ca42aeaafe7f602c3226fe.bindPopup(popup_756bf74c19594e5f9a64a2dfdf139414)
+        ;
+
+        
+    
+    
+            var marker_dddb544035fa490d962f75d42f58b321 = L.marker(
+                [43.5698013, -121.8209991],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_9f890b1f6e4c43d989e43e43f6809a5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_dddb544035fa490d962f75d42f58b321.setIcon(icon_9f890b1f6e4c43d989e43e43f6809a5b);
+        
+    
+        var popup_7a2c756e9371448780032a6dcb0f9a3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a76c558fe5394bce8f4392c8ca2a286f = $(`<div id="html_a76c558fe5394bce8f4392c8ca2a286f" style="width: 100.0%; height: 100.0%;">Name:Davis Lake    Value: 2163.0    Location: US-Oregon  Status:Radiocarbon   Type: Volcanic field</div>`)[0];
+            popup_7a2c756e9371448780032a6dcb0f9a3d.setContent(html_a76c558fe5394bce8f4392c8ca2a286f);
+        
+
+        marker_dddb544035fa490d962f75d42f58b321.bindPopup(popup_7a2c756e9371448780032a6dcb0f9a3d)
+        ;
+
+        
+    
+    
+            var marker_4bdc228831bd4beb9c9393f7adcdfd3f = L.marker(
+                [43.5119019, -120.8610001],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_4c46bc822f7b4eaab49bb80b3ebbdb28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4bdc228831bd4beb9c9393f7adcdfd3f.setIcon(icon_4c46bc822f7b4eaab49bb80b3ebbdb28);
+        
+    
+        var popup_7a086a5bbee44527b8901adc32a26a28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea4eb9647b1e46a399947d0794e05dc5 = $(`<div id="html_ea4eb9647b1e46a399947d0794e05dc5" style="width: 100.0%; height: 100.0%;">Name:Devils Garden    Value: 1698.0    Location: US-Oregon  Status:Holocene?   Type: Volcanic field</div>`)[0];
+            popup_7a086a5bbee44527b8901adc32a26a28.setContent(html_ea4eb9647b1e46a399947d0794e05dc5);
+        
+
+        marker_4bdc228831bd4beb9c9393f7adcdfd3f.bindPopup(popup_7a086a5bbee44527b8901adc32a26a28)
+        ;
+
+        
+    
+    
+            var marker_8a638f94a8714191ae6dfcbfbe20d842 = L.marker(
+                [43.240799, -122.1009979],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_cb2efa5bbb7d4a6b800199326406a20f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8a638f94a8714191ae6dfcbfbe20d842.setIcon(icon_cb2efa5bbb7d4a6b800199326406a20f);
+        
+    
+        var popup_50472be49c5a4282af119db67b0f98e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5487095df6594bcfad658cd76f0d55d9 = $(`<div id="html_5487095df6594bcfad658cd76f0d55d9" style="width: 100.0%; height: 100.0%;">Name:Cinnamon Butte    Value: 1956.0    Location: US-Oregon  Status:Holocene?   Type: Cinder cones</div>`)[0];
+            popup_50472be49c5a4282af119db67b0f98e3.setContent(html_5487095df6594bcfad658cd76f0d55d9);
+        
+
+        marker_8a638f94a8714191ae6dfcbfbe20d842.bindPopup(popup_50472be49c5a4282af119db67b0f98e3)
+        ;
+
+        
+    
+    
+            var marker_c8dcc039f94a4dae952f1bfa3704825f = L.marker(
+                [43.4719009, -120.7509995],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_c2981611bc554523bfa60a683add4b42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c8dcc039f94a4dae952f1bfa3704825f.setIcon(icon_c2981611bc554523bfa60a683add4b42);
+        
+    
+        var popup_24ee99a7b93045279994a4265887a6f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e9e45a548ba40d9977cc0e12444eea7 = $(`<div id="html_6e9e45a548ba40d9977cc0e12444eea7" style="width: 100.0%; height: 100.0%;">Name:Squaw Ridge Lava Field    Value: 1711.0    Location: US-Oregon  Status:Holocene?   Type: Volcanic field</div>`)[0];
+            popup_24ee99a7b93045279994a4265887a6f4.setContent(html_6e9e45a548ba40d9977cc0e12444eea7);
+        
+
+        marker_c8dcc039f94a4dae952f1bfa3704825f.bindPopup(popup_24ee99a7b93045279994a4265887a6f4)
+        ;
+
+        
+    
+    
+            var marker_1d6e0f48aaf1439faaf4f509eafd7cc4 = L.marker(
+                [43.3609009, -120.6610031],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_7c206f32a8b5469291bbbec93499cfdf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1d6e0f48aaf1439faaf4f509eafd7cc4.setIcon(icon_7c206f32a8b5469291bbbec93499cfdf);
+        
+    
+        var popup_bed88624c51749b982cf7db98b878538 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a26a03a6596a46f9b92a74c243a9d2d6 = $(`<div id="html_a26a03a6596a46f9b92a74c243a9d2d6" style="width: 100.0%; height: 100.0%;">Name:Four Craters Lava Field    Value: 1501.0    Location: US-Oregon  Status:Holocene?   Type: Volcanic field</div>`)[0];
+            popup_bed88624c51749b982cf7db98b878538.setContent(html_a26a03a6596a46f9b92a74c243a9d2d6);
+        
+
+        marker_1d6e0f48aaf1439faaf4f509eafd7cc4.bindPopup(popup_bed88624c51749b982cf7db98b878538)
+        ;
+
+        
+    
+    
+            var marker_65fa6fc7d74443b38e7acfce4b8ac44a = L.marker(
+                [42.9299011, -122.1210022],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_e60f9af1a6fe44179c5bede24398e63d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_65fa6fc7d74443b38e7acfce4b8ac44a.setIcon(icon_e60f9af1a6fe44179c5bede24398e63d);
+        
+    
+        var popup_93de4b8fa04f43c9bd1b26e5bf5b8b88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08bda07fe9ba48ffb7b6be3815aa3c8e = $(`<div id="html_08bda07fe9ba48ffb7b6be3815aa3c8e" style="width: 100.0%; height: 100.0%;">Name:Crater Lake    Value: 2487.0    Location: US-Oregon  Status:Radiocarbon   Type: Caldera</div>`)[0];
+            popup_93de4b8fa04f43c9bd1b26e5bf5b8b88.setContent(html_08bda07fe9ba48ffb7b6be3815aa3c8e);
+        
+
+        marker_65fa6fc7d74443b38e7acfce4b8ac44a.bindPopup(popup_93de4b8fa04f43c9bd1b26e5bf5b8b88)
+        ;
+
+        
+    
+    
+            var marker_c10496f4260445bd97f579b0a3c7def5 = L.marker(
+                [44.4299011, -110.6709976],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_ecdb5bbf47be40c9a7956eb3b0af86f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c10496f4260445bd97f579b0a3c7def5.setIcon(icon_ecdb5bbf47be40c9a7956eb3b0af86f7);
+        
+    
+        var popup_33903b85b64b4b219a1e3baf1d22763b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7422ce0cca2d47cba265dd27c362b432 = $(`<div id="html_7422ce0cca2d47cba265dd27c362b432" style="width: 100.0%; height: 100.0%;">Name:Yellowstone    Value: 2805.0    Location: US-Wyoming  Status:Tephrochronology   Type: Calderas</div>`)[0];
+            popup_33903b85b64b4b219a1e3baf1d22763b.setContent(html_7422ce0cca2d47cba265dd27c362b432);
+        
+
+        marker_c10496f4260445bd97f579b0a3c7def5.bindPopup(popup_33903b85b64b4b219a1e3baf1d22763b)
+        ;
+
+        
+    
+    
+            var marker_2836e6d338d24fa68fd19486a28a4f97 = L.marker(
+                [43.0998993, -118.7509995],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_a1a1313aac554827a1475f2519f2a997 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2836e6d338d24fa68fd19486a28a4f97.setIcon(icon_a1a1313aac554827a1475f2519f2a997);
+        
+    
+        var popup_8393d06d828748e3964ee74c57c6c6bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d7510f509dd49399afab81c017ea756 = $(`<div id="html_6d7510f509dd49399afab81c017ea756" style="width: 100.0%; height: 100.0%;">Name:Diamond Craters    Value: 1435.0    Location: US-Oregon  Status:Holocene?   Type: Volcanic field</div>`)[0];
+            popup_8393d06d828748e3964ee74c57c6c6bb.setContent(html_6d7510f509dd49399afab81c017ea756);
+        
+
+        marker_2836e6d338d24fa68fd19486a28a4f97.bindPopup(popup_8393d06d828748e3964ee74c57c6c6bb)
+        ;
+
+        
+    
+    
+            var marker_e023ee44be894f3fb8f50d81587f75e1 = L.marker(
+                [43.1498985, -117.4710007],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_0f0fa17232b844a28323816f24594f22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e023ee44be894f3fb8f50d81587f75e1.setIcon(icon_0f0fa17232b844a28323816f24594f22);
+        
+    
+        var popup_5fde1c8373b34527ba30be5e861c4880 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a04b214b34842b78041b5e438de3a2f = $(`<div id="html_7a04b214b34842b78041b5e438de3a2f" style="width: 100.0%; height: 100.0%;">Name:Jordan Craters    Value: 1473.0    Location: US-Oregon  Status:Radiocarbon   Type: Volcanic field</div>`)[0];
+            popup_5fde1c8373b34527ba30be5e861c4880.setContent(html_7a04b214b34842b78041b5e438de3a2f);
+        
+
+        marker_e023ee44be894f3fb8f50d81587f75e1.bindPopup(popup_5fde1c8373b34527ba30be5e861c4880)
+        ;
+
+        
+    
+    
+            var marker_d99ac7dbab084e478bffb4424c61d472 = L.marker(
+                [42.9999008, -117.8010025],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_54dd897c4a8646f29c1baffe8dc56f54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d99ac7dbab084e478bffb4424c61d472.setIcon(icon_54dd897c4a8646f29c1baffe8dc56f54);
+        
+    
+        var popup_81ecdf52e2de4521936d0a9d78718599 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ba1f7f699534480b581261945231ccc = $(`<div id="html_1ba1f7f699534480b581261945231ccc" style="width: 100.0%; height: 100.0%;">Name:Saddle Butte    Value: 1700.0    Location: US-Oregon  Status:Holocene?   Type: Volcanic field</div>`)[0];
+            popup_81ecdf52e2de4521936d0a9d78718599.setContent(html_1ba1f7f699534480b581261945231ccc);
+        
+
+        marker_d99ac7dbab084e478bffb4424c61d472.bindPopup(popup_81ecdf52e2de4521936d0a9d78718599)
+        ;
+
+        
+    
+    
+            var marker_28a399356f9346a9870730fea08b8db5 = L.marker(
+                [43.419899, -113.5009995],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_be9122d09bfa454ab77ede1493777951 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_28a399356f9346a9870730fea08b8db5.setIcon(icon_be9122d09bfa454ab77ede1493777951);
+        
+    
+        var popup_e0797e589efc42ff920cad5939ac70cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c678d05bab4b4b1b8a0d13ddc0a60dcf = $(`<div id="html_c678d05bab4b4b1b8a0d13ddc0a60dcf" style="width: 100.0%; height: 100.0%;">Name:Craters of the Moon    Value: 2005.0    Location: US-Idaho  Status:Radiocarbon   Type: Cinder cones</div>`)[0];
+            popup_e0797e589efc42ff920cad5939ac70cd.setContent(html_c678d05bab4b4b1b8a0d13ddc0a60dcf);
+        
+
+        marker_28a399356f9346a9870730fea08b8db5.bindPopup(popup_e0797e589efc42ff920cad5939ac70cd)
+        ;
+
+        
+    
+    
+            var marker_718936d9809144b28a3aa00617b46ee1 = L.marker(
+                [43.4999008, -112.4509964],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_dd65b67295bd4e5db64460f360b33db4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_718936d9809144b28a3aa00617b46ee1.setIcon(icon_dd65b67295bd4e5db64460f360b33db4);
+        
+    
+        var popup_34f264e729d94d49a4944b14c11b8d1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afd04fa2dacb498facb721d1ae4f7a13 = $(`<div id="html_afd04fa2dacb498facb721d1ae4f7a13" style="width: 100.0%; height: 100.0%;">Name:Hell Half Acre    Value: 1631.0    Location: US-Idaho  Status:Radiocarbon   Type: Shield volcano</div>`)[0];
+            popup_34f264e729d94d49a4944b14c11b8d1e.setContent(html_afd04fa2dacb498facb721d1ae4f7a13);
+        
+
+        marker_718936d9809144b28a3aa00617b46ee1.bindPopup(popup_34f264e729d94d49a4944b14c11b8d1e)
+        ;
+
+        
+    
+    
+            var marker_d0734ee54d654175864c97bf9d6e3a24 = L.marker(
+                [43.1799011, -114.3509979],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_91888736b30e4f719306810526822ba0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d0734ee54d654175864c97bf9d6e3a24.setIcon(icon_91888736b30e4f719306810526822ba0);
+        
+    
+        var popup_0f3607a2870d4d9199c6282fa6db6e25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8521610ea49416e88f4100f67a75ced = $(`<div id="html_c8521610ea49416e88f4100f67a75ced" style="width: 100.0%; height: 100.0%;">Name:Shoshone Lava Field    Value: 1478.0    Location: US-Idaho  Status:Holocene   Type: Shield volcano</div>`)[0];
+            popup_0f3607a2870d4d9199c6282fa6db6e25.setContent(html_c8521610ea49416e88f4100f67a75ced);
+        
+
+        marker_d0734ee54d654175864c97bf9d6e3a24.bindPopup(popup_0f3607a2870d4d9199c6282fa6db6e25)
+        ;
+
+        
+    
+    
+            var marker_8d5ac51f40d24f488f8c49b603183cd8 = L.marker(
+                [42.6058998, -117.5810013],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_d52de6bde82147e380a4cee5f0d54562 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8d5ac51f40d24f488f8c49b603183cd8.setIcon(icon_d52de6bde82147e380a4cee5f0d54562);
+        
+    
+        var popup_3ca0fef5b2f94d1d98625905d22ee998 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85d8a30d9e6644bbb294df5d06086e65 = $(`<div id="html_85d8a30d9e6644bbb294df5d06086e65" style="width: 100.0%; height: 100.0%;">Name:Jackies Butte    Value: 1418.0    Location: US-Oregon  Status:Holocene?   Type: Volcanic field</div>`)[0];
+            popup_3ca0fef5b2f94d1d98625905d22ee998.setContent(html_85d8a30d9e6644bbb294df5d06086e65);
+        
+
+        marker_8d5ac51f40d24f488f8c49b603183cd8.bindPopup(popup_3ca0fef5b2f94d1d98625905d22ee998)
+        ;
+
+        
+    
+    
+            var marker_4998aa53584445e585b2e2753bacab04 = L.marker(
+                [41.5798988, -121.5709991],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_f9abe75195434ddc8f120b3bbaae4c84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4998aa53584445e585b2e2753bacab04.setIcon(icon_f9abe75195434ddc8f120b3bbaae4c84);
+        
+    
+        var popup_86f8dd76a649493d9fa25a7042addffb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac5f619d0a234235bd5c6feb3ebaf29c = $(`<div id="html_ac5f619d0a234235bd5c6feb3ebaf29c" style="width: 100.0%; height: 100.0%;">Name:Medicine Lake    Value: 2412.0    Location: US-California  Status:Radiocarbon   Type: Shield volcano</div>`)[0];
+            popup_86f8dd76a649493d9fa25a7042addffb.setContent(html_ac5f619d0a234235bd5c6feb3ebaf29c);
+        
+
+        marker_4998aa53584445e585b2e2753bacab04.bindPopup(popup_86f8dd76a649493d9fa25a7042addffb)
+        ;
+
+        
+    
+    
+            var marker_140fb0546a404b5aa9d0b2f603bbef8a = L.marker(
+                [42.8799019, -113.2210007],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_98b07bc1222b41da940c14c98dcaf78c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_140fb0546a404b5aa9d0b2f603bbef8a.setIcon(icon_98b07bc1222b41da940c14c98dcaf78c);
+        
+    
+        var popup_e7bca87f190948fcb3792d2c4078a39b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba9ca188a8724baba072fb0744f4918d = $(`<div id="html_ba9ca188a8724baba072fb0744f4918d" style="width: 100.0%; height: 100.0%;">Name:Wapi Lava Field    Value: 1604.0    Location: US-Idaho  Status:Radiocarbon   Type: Shield volcano</div>`)[0];
+            popup_e7bca87f190948fcb3792d2c4078a39b.setContent(html_ba9ca188a8724baba072fb0744f4918d);
+        
+
+        marker_140fb0546a404b5aa9d0b2f603bbef8a.bindPopup(popup_e7bca87f190948fcb3792d2c4078a39b)
+        ;
+
+        
+    
+    
+            var marker_fb3de16d098147ff930ab4213a1bef16 = L.marker(
+                [41.419899, -122.2009964],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_7280da685f9448cb8927a68eacda17f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fb3de16d098147ff930ab4213a1bef16.setIcon(icon_7280da685f9448cb8927a68eacda17f4);
+        
+    
+        var popup_d5df40f638324f61a34f93635bc6d528 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16e8708fb0094e3fbd25f45d5c4c42b6 = $(`<div id="html_16e8708fb0094e3fbd25f45d5c4c42b6" style="width: 100.0%; height: 100.0%;">Name:Shasta    Value: 4317.0    Location: US-California  Status:Historical   Type: Stratovolcano</div>`)[0];
+            popup_d5df40f638324f61a34f93635bc6d528.setContent(html_16e8708fb0094e3fbd25f45d5c4c42b6);
+        
+
+        marker_fb3de16d098147ff930ab4213a1bef16.bindPopup(popup_d5df40f638324f61a34f93635bc6d528)
+        ;
+
+        
+    
+    
+            var marker_cc1f9036fc364223a392b863d267c1af = L.marker(
+                [41.1778984, -121.4410019],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_50719606107d4dbe9772722880419b7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_cc1f9036fc364223a392b863d267c1af.setIcon(icon_50719606107d4dbe9772722880419b7a);
+        
+    
+        var popup_bf83fed235da463b93ef4dc41c644078 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e73beb55ca0443c8ae4602165b0bd64 = $(`<div id="html_8e73beb55ca0443c8ae4602165b0bd64" style="width: 100.0%; height: 100.0%;">Name:Brushy Butte    Value: 1174.0    Location: US-California  Status:Holocene?   Type: Shield volcano</div>`)[0];
+            popup_bf83fed235da463b93ef4dc41c644078.setContent(html_8e73beb55ca0443c8ae4602165b0bd64);
+        
+
+        marker_cc1f9036fc364223a392b863d267c1af.bindPopup(popup_bf83fed235da463b93ef4dc41c644078)
+        ;
+
+        
+    
+    
+            var marker_1b62e62658e14888a5ae34f5eb0831bb = L.marker(
+                [40.9548988, -121.3610001],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_c0b99ce3986f4502a9b88688e2cbfa9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1b62e62658e14888a5ae34f5eb0831bb.setIcon(icon_c0b99ce3986f4502a9b88688e2cbfa9d);
+        
+    
+        var popup_06ba805c128e426590d4cf77177f0a15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50727465f99d4b9c805d5ece3e2c1a74 = $(`<div id="html_50727465f99d4b9c805d5ece3e2c1a74" style="width: 100.0%; height: 100.0%;">Name:Big Cave    Value: 1259.0    Location: US-California  Status:Holocene?   Type: Shield volcano</div>`)[0];
+            popup_06ba805c128e426590d4cf77177f0a15.setContent(html_50727465f99d4b9c805d5ece3e2c1a74);
+        
+
+        marker_1b62e62658e14888a5ae34f5eb0831bb.bindPopup(popup_06ba805c128e426590d4cf77177f0a15)
+        ;
+
+        
+    
+    
+            var marker_f13d01a073c547b58be13cca91070ed7 = L.marker(
+                [40.7798996, -121.6009979],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_5475fd768e05457fb43047e633b20f3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f13d01a073c547b58be13cca91070ed7.setIcon(icon_5475fd768e05457fb43047e633b20f3d);
+        
+    
+        var popup_5d360d5aa049408a8631b1f6e96a3ee2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2712dcd1cde49138c2507d57059e3b4 = $(`<div id="html_c2712dcd1cde49138c2507d57059e3b4" style="width: 100.0%; height: 100.0%;">Name:Twin Buttes    Value: 1631.0    Location: US-California  Status:Holocene?   Type: Cinder cones</div>`)[0];
+            popup_5d360d5aa049408a8631b1f6e96a3ee2.setContent(html_c2712dcd1cde49138c2507d57059e3b4);
+        
+
+        marker_f13d01a073c547b58be13cca91070ed7.bindPopup(popup_5d360d5aa049408a8631b1f6e96a3ee2)
+        ;
+
+        
+    
+    
+            var marker_5e78d2ab6bae4aefbdd7c89dafda690b = L.marker(
+                [40.6799011, -121.5510025],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_9a2985b7b3014f3084a0e37070c094ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5e78d2ab6bae4aefbdd7c89dafda690b.setIcon(icon_9a2985b7b3014f3084a0e37070c094ee);
+        
+    
+        var popup_eaf4600ebaf849c9a32da77f2e078f05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_393a56013f88435d848a17aa4e0aa39e = $(`<div id="html_393a56013f88435d848a17aa4e0aa39e" style="width: 100.0%; height: 100.0%;">Name:Tumble Buttes    Value: 2191.0    Location: US-California  Status:Holocene?   Type: Cinder cones</div>`)[0];
+            popup_eaf4600ebaf849c9a32da77f2e078f05.setContent(html_393a56013f88435d848a17aa4e0aa39e);
+        
+
+        marker_5e78d2ab6bae4aefbdd7c89dafda690b.bindPopup(popup_eaf4600ebaf849c9a32da77f2e078f05)
+        ;
+
+        
+    
+    
+            var marker_e2469ecee21041c081ebb64a41384d83 = L.marker(
+                [40.6299019, -120.8310013],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_35b93258cd324129982a55912883788e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e2469ecee21041c081ebb64a41384d83.setIcon(icon_35b93258cd324129982a55912883788e);
+        
+    
+        var popup_3b54f6e5542547b7918b01d3c5a8f433 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_150386be4989478f987ca1476f8b0045 = $(`<div id="html_150386be4989478f987ca1476f8b0045" style="width: 100.0%; height: 100.0%;">Name:Eagle Lake Field    Value: 1652.0    Location: US-California  Status:Holocene?   Type: Fissure vents</div>`)[0];
+            popup_3b54f6e5542547b7918b01d3c5a8f433.setContent(html_150386be4989478f987ca1476f8b0045);
+        
+
+        marker_e2469ecee21041c081ebb64a41384d83.bindPopup(popup_3b54f6e5542547b7918b01d3c5a8f433)
+        ;
+
+        
+    
+    
+            var marker_cf13081557ce48d1ae803d8f46365abd = L.marker(
+                [40.4919014, -121.5009995],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_a68d3e61eef545fcbcf7aed6d257cfb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cf13081557ce48d1ae803d8f46365abd.setIcon(icon_a68d3e61eef545fcbcf7aed6d257cfb7);
+        
+    
+        var popup_6649194413c14ec58652da88bc61421e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1bf51590e174235b92a0b59747c05ec = $(`<div id="html_e1bf51590e174235b92a0b59747c05ec" style="width: 100.0%; height: 100.0%;">Name:Lassen Volc Center    Value: 3187.0    Location: US-California  Status:Historical   Type: Stratovolcano</div>`)[0];
+            popup_6649194413c14ec58652da88bc61421e.setContent(html_e1bf51590e174235b92a0b59747c05ec);
+        
+
+        marker_cf13081557ce48d1ae803d8f46365abd.bindPopup(popup_6649194413c14ec58652da88bc61421e)
+        ;
+
+        
+    
+    
+            var marker_058fc33779c14c8bb451e032b20872fb = L.marker(
+                [38.9698982, -122.7710037],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_88d7d4f444304b019bc37847758121ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_058fc33779c14c8bb451e032b20872fb.setIcon(icon_88d7d4f444304b019bc37847758121ca);
+        
+    
+        var popup_bc3428b125a04ecabe0178cddb2206de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf1d2810196548008b54ec0ea2b9ed68 = $(`<div id="html_cf1d2810196548008b54ec0ea2b9ed68" style="width: 100.0%; height: 100.0%;">Name:Clear Lake    Value: 1439.0    Location: US-California  Status:Holocene   Type: Volcanic field</div>`)[0];
+            popup_bc3428b125a04ecabe0178cddb2206de.setContent(html_cf1d2810196548008b54ec0ea2b9ed68);
+        
+
+        marker_058fc33779c14c8bb451e032b20872fb.bindPopup(popup_bc3428b125a04ecabe0178cddb2206de)
+        ;
+
+        
+    
+    
+            var marker_0b9f38cb49c442aeba2a5464d65fd5dd = L.marker(
+                [39.3749008, -119.7210007],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_c6382d80cfb14988acec6226551bdcb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0b9f38cb49c442aeba2a5464d65fd5dd.setIcon(icon_c6382d80cfb14988acec6226551bdcb1);
+        
+    
+        var popup_f6b1ba2381ca4c3a8e790384174b64b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b0e7d5a4a4543e3a6d32f84eb84a056 = $(`<div id="html_6b0e7d5a4a4543e3a6d32f84eb84a056" style="width: 100.0%; height: 100.0%;">Name:Steamboat Springs    Value: 1415.0    Location: US-Nevada  Status:Pleistocene-Fumarolic   Type: Lava domes</div>`)[0];
+            popup_f6b1ba2381ca4c3a8e790384174b64b9.setContent(html_6b0e7d5a4a4543e3a6d32f84eb84a056);
+        
+
+        marker_0b9f38cb49c442aeba2a5464d65fd5dd.bindPopup(popup_f6b1ba2381ca4c3a8e790384174b64b9)
+        ;
+
+        
+    
+    
+            var marker_c664e915f8e549298f123ed63b5f3575 = L.marker(
+                [39.6500015, -107.0309982],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_3ea78896df904f1fbba7640eb0f20308 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c664e915f8e549298f123ed63b5f3575.setIcon(icon_3ea78896df904f1fbba7640eb0f20308);
+        
+    
+        var popup_0ab352c33ece489db69eb5d5ddc66ac6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_762723170aaa4f5885f758a135b8a185 = $(`<div id="html_762723170aaa4f5885f758a135b8a185" style="width: 100.0%; height: 100.0%;">Name:Dotsero    Value: 2230.0    Location: US-Colorado  Status:Radiocarbon   Type: Maar</div>`)[0];
+            popup_0ab352c33ece489db69eb5d5ddc66ac6.setContent(html_762723170aaa4f5885f758a135b8a185);
+        
+
+        marker_c664e915f8e549298f123ed63b5f3575.bindPopup(popup_0ab352c33ece489db69eb5d5ddc66ac6)
+        ;
+
+        
+    
+    
+            var marker_8afaee0e21204941bf6f27a18172a170 = L.marker(
+                [37.9999008, -119.0309982],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_a532983a8eb44c658c7f3219b2d320d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8afaee0e21204941bf6f27a18172a170.setIcon(icon_a532983a8eb44c658c7f3219b2d320d7);
+        
+    
+        var popup_236ebd71f41e4100a667b3754a9fd647 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5fc9e04e41e4310b03360aada234f65 = $(`<div id="html_f5fc9e04e41e4310b03360aada234f65" style="width: 100.0%; height: 100.0%;">Name:Mono Lake Volc Field    Value: 2121.0    Location: US-California  Status:Tephrochronology   Type: Cinder cones</div>`)[0];
+            popup_236ebd71f41e4100a667b3754a9fd647.setContent(html_f5fc9e04e41e4310b03360aada234f65);
+        
+
+        marker_8afaee0e21204941bf6f27a18172a170.bindPopup(popup_236ebd71f41e4100a667b3754a9fd647)
+        ;
+
+        
+    
+    
+            var marker_0f8c67eb4b0b46a2a323db104f2952d1 = L.marker(
+                [38.9700012, -112.5009995],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_e7d6df5108b94373980233399bf18b25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0f8c67eb4b0b46a2a323db104f2952d1.setIcon(icon_e7d6df5108b94373980233399bf18b25);
+        
+    
+        var popup_198847b88ddf40f98b1a25f7449dadbd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_979dc200d93a4069b37f08c0f18af9b8 = $(`<div id="html_979dc200d93a4069b37f08c0f18af9b8" style="width: 100.0%; height: 100.0%;">Name:Black Rock Desert    Value: 1800.0    Location: US-Utah  Status:Radiocarbon   Type: Volcanic field</div>`)[0];
+            popup_198847b88ddf40f98b1a25f7449dadbd.setContent(html_979dc200d93a4069b37f08c0f18af9b8);
+        
+
+        marker_0f8c67eb4b0b46a2a323db104f2952d1.bindPopup(popup_198847b88ddf40f98b1a25f7449dadbd)
+        ;
+
+        
+    
+    
+            var marker_5709bda83370490a8f0ce9de956ecc05 = L.marker(
+                [37.8799019, -119.0009995],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_515482160d60486cbaff482aa74ada94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5709bda83370490a8f0ce9de956ecc05.setIcon(icon_515482160d60486cbaff482aa74ada94);
+        
+    
+        var popup_afdad6b1d89b4a068126c6df3301d894 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c95b87420fc445ebad1f2dbbdfa32f4e = $(`<div id="html_c95b87420fc445ebad1f2dbbdfa32f4e" style="width: 100.0%; height: 100.0%;">Name:Mono Craters    Value: 2796.0    Location: US-California  Status:Radiocarbon   Type: Lava domes</div>`)[0];
+            popup_afdad6b1d89b4a068126c6df3301d894.setContent(html_c95b87420fc445ebad1f2dbbdfa32f4e);
+        
+
+        marker_5709bda83370490a8f0ce9de956ecc05.bindPopup(popup_afdad6b1d89b4a068126c6df3301d894)
+        ;
+
+        
+    
+    
+            var marker_facbe20bfa984abaa90e7437fc1b0329 = L.marker(
+                [37.6918983, -119.0210037],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_b03ad70aa946449fa6a2934bf66ba749 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_facbe20bfa984abaa90e7437fc1b0329.setIcon(icon_b03ad70aa946449fa6a2934bf66ba749);
+        
+    
+        var popup_c1dd9c08d1e543af885253899fb00b5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0322dbfecaeb448e9f2fa819017c4f0c = $(`<div id="html_0322dbfecaeb448e9f2fa819017c4f0c" style="width: 100.0%; height: 100.0%;">Name:Inyo Craters    Value: 2629.0    Location: US-California  Status:Radiocarbon   Type: Lava domes</div>`)[0];
+            popup_c1dd9c08d1e543af885253899fb00b5a.setContent(html_0322dbfecaeb448e9f2fa819017c4f0c);
+        
+
+        marker_facbe20bfa984abaa90e7437fc1b0329.bindPopup(popup_c1dd9c08d1e543af885253899fb00b5a)
+        ;
+
+        
+    
+    
+            var marker_b15f4ed68469436abed3a074180cd2d7 = L.marker(
+                [37.6999016, -118.8710022],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_99b1fcc2aebf4831ac73574fc077b923 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b15f4ed68469436abed3a074180cd2d7.setIcon(icon_99b1fcc2aebf4831ac73574fc077b923);
+        
+    
+        var popup_ed26a0e402e5481fa5d3960b712b6dc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a3307081c424a9a9981899dda359932 = $(`<div id="html_4a3307081c424a9a9981899dda359932" style="width: 100.0%; height: 100.0%;">Name:Long Valley    Value: 3390.0    Location: US-California  Status:Pleistocene-Fumarolic   Type: Caldera</div>`)[0];
+            popup_ed26a0e402e5481fa5d3960b712b6dc2.setContent(html_4a3307081c424a9a9981899dda359932);
+        
+
+        marker_b15f4ed68469436abed3a074180cd2d7.bindPopup(popup_ed26a0e402e5481fa5d3960b712b6dc2)
+        ;
+
+        
+    
+    
+            var marker_dd59e1a4fcc94368bb1fc58d8e427357 = L.marker(
+                [37.5798988, -119.0510025],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_c4066ebe6fd24e899cc6bcae8c066a0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_dd59e1a4fcc94368bb1fc58d8e427357.setIcon(icon_c4066ebe6fd24e899cc6bcae8c066a0c);
+        
+    
+        var popup_a6ede91120e14c0b8c3014bd5a48e724 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_554f0ecc679946e8ade98cc4fee96ee8 = $(`<div id="html_554f0ecc679946e8ade98cc4fee96ee8" style="width: 100.0%; height: 100.0%;">Name:Red Cones    Value: 2748.0    Location: US-California  Status:Radiocarbon   Type: Cinder cones</div>`)[0];
+            popup_a6ede91120e14c0b8c3014bd5a48e724.setContent(html_554f0ecc679946e8ade98cc4fee96ee8);
+        
+
+        marker_dd59e1a4fcc94368bb1fc58d8e427357.bindPopup(popup_a6ede91120e14c0b8c3014bd5a48e724)
+        ;
+
+        
+    
+    
+            var marker_b4a03c8376454c3b9690562eeaf86cc2 = L.marker(
+                [37.0199013, -117.4509964],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_bd80a0df378f4dc39df61e35b1e04d83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b4a03c8376454c3b9690562eeaf86cc2.setIcon(icon_bd80a0df378f4dc39df61e35b1e04d83);
+        
+    
+        var popup_f48713639c0c498ea80a95568ec97098 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95a352fe0b0b496a93231712bfe29e95 = $(`<div id="html_95a352fe0b0b496a93231712bfe29e95" style="width: 100.0%; height: 100.0%;">Name:Ubehebe Craters    Value: 752.0    Location: US-California  Status:Anthropology   Type: Maars</div>`)[0];
+            popup_f48713639c0c498ea80a95568ec97098.setContent(html_95a352fe0b0b496a93231712bfe29e95);
+        
+
+        marker_b4a03c8376454c3b9690562eeaf86cc2.bindPopup(popup_f48713639c0c498ea80a95568ec97098)
+        ;
+
+        
+    
+    
+            var marker_52d6f0221dd94e119718f47f4684a3b2 = L.marker(
+                [37.5800018, -112.6709976],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_09383218636e44dfb9fc51fb834424de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_52d6f0221dd94e119718f47f4684a3b2.setIcon(icon_09383218636e44dfb9fc51fb834424de);
+        
+    
+        var popup_892881710518472e8127d9aea4356b4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14c1b17c7efa47b5a20c09a266aba5a3 = $(`<div id="html_14c1b17c7efa47b5a20c09a266aba5a3" style="width: 100.0%; height: 100.0%;">Name:Markagunt Plateau    Value: 2840.0    Location: US-Utah  Status:Dendrochronology   Type: Volcanic field</div>`)[0];
+            popup_892881710518472e8127d9aea4356b4c.setContent(html_14c1b17c7efa47b5a20c09a266aba5a3);
+        
+
+        marker_52d6f0221dd94e119718f47f4684a3b2.bindPopup(popup_892881710518472e8127d9aea4356b4c)
+        ;
+
+        
+    
+    
+            var marker_3ca20a45e5314b4384cb1a889933153a = L.marker(
+                [37.257, -113.6210022],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_dbf57a7bf6a64206a25ebb606b90ca22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3ca20a45e5314b4384cb1a889933153a.setIcon(icon_dbf57a7bf6a64206a25ebb606b90ca22);
+        
+    
+        var popup_63b082826a2c4c0a9a755481c1e68352 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f1d31c313a345fd824c51733935a34f = $(`<div id="html_0f1d31c313a345fd824c51733935a34f" style="width: 100.0%; height: 100.0%;">Name:Santa Clara    Value: 1465.0    Location: US-Utah  Status:Holocene?   Type: Volcanic field</div>`)[0];
+            popup_63b082826a2c4c0a9a755481c1e68352.setContent(html_0f1d31c313a345fd824c51733935a34f);
+        
+
+        marker_3ca20a45e5314b4384cb1a889933153a.bindPopup(popup_63b082826a2c4c0a9a755481c1e68352)
+        ;
+
+        
+    
+    
+            var marker_ddfd819ac14a4011a341d2c0da9b6b00 = L.marker(
+                [37.3279991, -112.401001],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_851aff7ae74149c8aedbd81e583aec9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ddfd819ac14a4011a341d2c0da9b6b00.setIcon(icon_851aff7ae74149c8aedbd81e583aec9c);
+        
+    
+        var popup_e68dcc74449a467f9dcd3bd61b4ab03a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87f369dfcaee49fa9a51f51737dc810e = $(`<div id="html_87f369dfcaee49fa9a51f51737dc810e" style="width: 100.0%; height: 100.0%;">Name:Bald Knoll    Value: 2135.0    Location: US-Utah  Status:Holocene   Type: Cinder cones</div>`)[0];
+            popup_e68dcc74449a467f9dcd3bd61b4ab03a.setContent(html_87f369dfcaee49fa9a51f51737dc810e);
+        
+
+        marker_ddfd819ac14a4011a341d2c0da9b6b00.bindPopup(popup_e68dcc74449a467f9dcd3bd61b4ab03a)
+        ;
+
+        
+    
+    
+            var marker_b0addbde4a184103bfcc56f298338404 = L.marker(
+                [36.3578987, -118.3209991],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_2016cf790a364b138712c14c54861326 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b0addbde4a184103bfcc56f298338404.setIcon(icon_2016cf790a364b138712c14c54861326);
+        
+    
+        var popup_9853eac1f4d443f48d73f97741bfe5c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a19af7d05afa4e69a953944842e31d61 = $(`<div id="html_a19af7d05afa4e69a953944842e31d61" style="width: 100.0%; height: 100.0%;">Name:Golden Trout Creek    Value: 2886.0    Location: US-California  Status:Tephrochronology   Type: Volcanic field</div>`)[0];
+            popup_9853eac1f4d443f48d73f97741bfe5c8.setContent(html_a19af7d05afa4e69a953944842e31d61);
+        
+
+        marker_b0addbde4a184103bfcc56f298338404.bindPopup(popup_9853eac1f4d443f48d73f97741bfe5c8)
+        ;
+
+        
+    
+    
+            var marker_65af8dd10e924a91aa7021f49e88185c = L.marker(
+                [36.0298996, -117.8209991],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_cf27a4c2093c4bcbb945767f066258c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_65af8dd10e924a91aa7021f49e88185c.setIcon(icon_cf27a4c2093c4bcbb945767f066258c4);
+        
+    
+        var popup_657d6e3f6d604df08e7ab36ccc187a49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cc621496cfd4b01ad09d48643259ec4 = $(`<div id="html_5cc621496cfd4b01ad09d48643259ec4" style="width: 100.0%; height: 100.0%;">Name:Coso Volc Field    Value: 2400.0    Location: US-California  Status:Holocene?   Type: Lava domes</div>`)[0];
+            popup_657d6e3f6d604df08e7ab36ccc187a49.setContent(html_5cc621496cfd4b01ad09d48643259ec4);
+        
+
+        marker_65af8dd10e924a91aa7021f49e88185c.bindPopup(popup_657d6e3f6d604df08e7ab36ccc187a49)
+        ;
+
+        
+    
+    
+            var marker_d584e3824c5c477cb66d36a5479a3c11 = L.marker(
+                [36.3800011, -113.1309967],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_9e46f55a835e4a58acaf316b20a68ee3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d584e3824c5c477cb66d36a5479a3c11.setIcon(icon_9e46f55a835e4a58acaf316b20a68ee3);
+        
+    
+        var popup_a35d34f5e6844179a0b22feabd05867f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88c1c552d26f40619e8c4ef4f42c9218 = $(`<div id="html_88c1c552d26f40619e8c4ef4f42c9218" style="width: 100.0%; height: 100.0%;">Name:Uinkaret Field    Value: 1555.0    Location: US-Arizona  Status:Anthropology   Type: Volcanic field</div>`)[0];
+            popup_a35d34f5e6844179a0b22feabd05867f.setContent(html_88c1c552d26f40619e8c4ef4f42c9218);
+        
+
+        marker_d584e3824c5c477cb66d36a5479a3c11.bindPopup(popup_a35d34f5e6844179a0b22feabd05867f)
+        ;
+
+        
+    
+    
+            var marker_dbb73d32f00641509f689bf870cd8161 = L.marker(
+                [34.75, -116.6210022],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_6155594359fb49f3be3e544d8d9c6953 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_dbb73d32f00641509f689bf870cd8161.setIcon(icon_6155594359fb49f3be3e544d8d9c6953);
+        
+    
+        var popup_88ab48c2602941e3b4e4701fbd1b2d89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8c1ba821f1a4fc8be7ba8d8164cb241 = $(`<div id="html_d8c1ba821f1a4fc8be7ba8d8164cb241" style="width: 100.0%; height: 100.0%;">Name:Lavic Lake    Value: 1495.0    Location: US-California  Status:Holocene?   Type: Volcanic field</div>`)[0];
+            popup_88ab48c2602941e3b4e4701fbd1b2d89.setContent(html_d8c1ba821f1a4fc8be7ba8d8164cb241);
+        
+
+        marker_dbb73d32f00641509f689bf870cd8161.bindPopup(popup_88ab48c2602941e3b4e4701fbd1b2d89)
+        ;
+
+        
+    
+    
+            var marker_cf94b413740647ceaa0488bcc09534ae = L.marker(
+                [35.8699989, -106.5709991],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_0d5d5cebbb2a457bba237a07351ff03c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cf94b413740647ceaa0488bcc09534ae.setIcon(icon_0d5d5cebbb2a457bba237a07351ff03c);
+        
+    
+        var popup_7a027ea0acda438e9eb59d1eef0c8602 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_490e976ee884428a9e878563ebc4bee5 = $(`<div id="html_490e976ee884428a9e878563ebc4bee5" style="width: 100.0%; height: 100.0%;">Name:Valles Caldera    Value: 3430.0    Location: US-New Mexico  Status:Pleistocene-Fumarolic   Type: Caldera</div>`)[0];
+            popup_7a027ea0acda438e9eb59d1eef0c8602.setContent(html_490e976ee884428a9e878563ebc4bee5);
+        
+
+        marker_cf94b413740647ceaa0488bcc09534ae.bindPopup(popup_7a027ea0acda438e9eb59d1eef0c8602)
+        ;
+
+        
+    
+    
+            var marker_b1e08ede798e4191a8f9296560e85eb2 = L.marker(
+                [35.3699989, -111.5009995],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_d317a836de4644148f57c021e96f8a88 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b1e08ede798e4191a8f9296560e85eb2.setIcon(icon_d317a836de4644148f57c021e96f8a88);
+        
+    
+        var popup_4e783d01056c4309af11a43381703956 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76780dca7c12450697108bf91e7732b4 = $(`<div id="html_76780dca7c12450697108bf91e7732b4" style="width: 100.0%; height: 100.0%;">Name:Sunset Crater    Value: 2447.0    Location: US-Arizona  Status:Dendrochronology   Type: Cinder cone</div>`)[0];
+            popup_4e783d01056c4309af11a43381703956.setContent(html_76780dca7c12450697108bf91e7732b4);
+        
+
+        marker_b1e08ede798e4191a8f9296560e85eb2.bindPopup(popup_4e783d01056c4309af11a43381703956)
+        ;
+
+        
+    
+    
+            var marker_0cbac88fbbec42079ea814207e8902b0 = L.marker(
+                [34.5499992, -115.7809982],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_b23c190869694717b808e9b8439a9872 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0cbac88fbbec42079ea814207e8902b0.setIcon(icon_b23c190869694717b808e9b8439a9872);
+        
+    
+        var popup_da5beb9d8a0c4e1e9e7d89e64595128c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b76e1878604a4bc29bf7b566fabe50d6 = $(`<div id="html_b76e1878604a4bc29bf7b566fabe50d6" style="width: 100.0%; height: 100.0%;">Name:Amboy    Value: 288.0    Location: US-California  Status:Holocene   Type: Cinder cone</div>`)[0];
+            popup_da5beb9d8a0c4e1e9e7d89e64595128c.setContent(html_b76e1878604a4bc29bf7b566fabe50d6);
+        
+
+        marker_0cbac88fbbec42079ea814207e8902b0.bindPopup(popup_da5beb9d8a0c4e1e9e7d89e64595128c)
+        ;
+
+        
+    
+    
+            var marker_c02c41a39f914aaeb31f9b18fed456c5 = L.marker(
+                [34.7999992, -108.0009995],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_e93b811815094d6d805f34e0c479aa61 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c02c41a39f914aaeb31f9b18fed456c5.setIcon(icon_e93b811815094d6d805f34e0c479aa61);
+        
+    
+        var popup_4ceb4d88a951431bbb7058699d507080 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d72a1d3af6b64fb492b1b762a6c4d6e0 = $(`<div id="html_d72a1d3af6b64fb492b1b762a6c4d6e0" style="width: 100.0%; height: 100.0%;">Name:Zuni-Bandera    Value: 2550.0    Location: US-New Mexico  Status:Anthropology   Type: Volcanic field</div>`)[0];
+            popup_4ceb4d88a951431bbb7058699d507080.setContent(html_d72a1d3af6b64fb492b1b762a6c4d6e0);
+        
+
+        marker_c02c41a39f914aaeb31f9b18fed456c5.bindPopup(popup_4ceb4d88a951431bbb7058699d507080)
+        ;
+
+        
+    
+    
+            var marker_e831c00abbc04459a0f4d7da0c9e0fb5 = L.marker(
+                [33.7801018, -105.9309998],
+                {}
+            ).addTo(feature_group_4ff1db00b3854097ad558c583ae40788);
+        
+    
+            var icon_7922b64ed53f447eb4dbd5e7ba39d38d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e831c00abbc04459a0f4d7da0c9e0fb5.setIcon(icon_7922b64ed53f447eb4dbd5e7ba39d38d);
+        
+    
+        var popup_5f89321285a74405ac7aece7e9f48d3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72bb403aecb54244bc8b01ee03eb74a4 = $(`<div id="html_72bb403aecb54244bc8b01ee03eb74a4" style="width: 100.0%; height: 100.0%;">Name:Carrizozo    Value: 1731.0    Location: US-New Mexico  Status:Holocene   Type: Cinder cone</div>`)[0];
+            popup_5f89321285a74405ac7aece7e9f48d3e.setContent(html_72bb403aecb54244bc8b01ee03eb74a4);
+        
+
+        marker_e831c00abbc04459a0f4d7da0c9e0fb5.bindPopup(popup_5f89321285a74405ac7aece7e9f48d3e)
+        ;
+
+        
+    
+</script>
